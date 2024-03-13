@@ -40,9 +40,9 @@ class Employees {
 
    static getTotalPayroll(){
         let payroll = 0;
-        for (let x = 0; x <= Employees.allEmployees.length - 1; x++)
+        for (let x = 0; x < Employees.allEmployees.length; x++)
     {
-        payroll += Employees.allEmployees[x].#salary;
+        payroll += Employees.allEmployees[x].getSalary();
     }
 
 
