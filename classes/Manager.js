@@ -1,5 +1,5 @@
 
-const Employees = require('./Employees.js');
+const { Employees } = require('./Employees.js');
 
 class Manager extends Employees {
   #employeesManaged; 
